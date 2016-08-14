@@ -1,0 +1,91 @@
+@font-face{
+    font-family: "Wallau";
+    src: url("../font/WallauUnzial.ttf");
+}
+#login{
+    background-image: url("../images/backgroun.png");
+    background-size: cover;
+    color: white;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+    text-shadow: none;
+    text-align: center;
+}
+#myTitle{
+    font-family: "Wallau";
+    font-size: 18px;
+}
+#myTitle p{
+    font-size: 36px;
+}
+#myInput{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.4);
+}
+.ui-input-text input, .ui-input-search input{
+    height: 40px;
+}
+/*------------------------------------------------------------input背景透明*/
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    background:transparent;
+    border-radius: 0px;
+    /*height: 50px;*/
+    /*box-shadow: inset 0px 0px 5px 1px white;*/
+    border: 0;
+}
+legend, .ui-input-text input, .ui-input-search input{
+    text-shadow: none;
+    color: white;
+}
+.ui-input-text, .ui-input-search{
+    margin: 0;
+}
+/*::-webkit-input-placeholder{*/
+/*color: #ffffff;*/
+/*line-height: 50px;*/
+/*}*/
+
+#loginBtn{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ee2233;
+    text-align:center;
+}
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn,
+html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited,
+html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited,
+html head + body .ui-btn.ui-btn-a:visited{
+    text-shadow: none;
+    color: #ffffff;
+    border: 0;
+}
+#myText{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    position: relative;
+}
+#myText>span{
+    float: left;
+}
+#myText>a{
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+}
+#myText>a:hover{
+    color: #ffffff;
+}
+#footer{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 12px;
+}

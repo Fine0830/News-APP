@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"/>
+<link rel="stylesheet" href="css/news.css"/>
+<body>
+<div id="newsPage">
+    <div data-role="page">
+        <!-----------------------------------------------------------------------------------------------------侧边栏菜单-->
+        <div data-role="panel" data-theme="a" id="menu" data-position="left">
+            <div class="ui-panel-inner">
+                <div>
+                    <div class="myHead"></div>
+                    <div class="myIntro">
+                        <h4>Vonson</h4>
+                    </div>
+                </div>
+                <ul data-role="listview" id="myClassify">
+                    <li><span>&#xe61f;</span><span>society</span></li>
+                    <li><span>&#xf0066;</span><span>sports</span></li>
+                    <li><span>&#xe71e;</span><span>music</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="header" data-position="fixed" data-fullscreen="true" id="myHeader">
+            <span id="myMenu">&#xe623;</span><span id="logo">Moment</span><span id="search">&#xe645;</span>
+        </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------主要内容--->
+       <div data-role="content" id="mainContent">
+           这儿是主要内容，滑动谈出菜单
+       </div>
+    </div>
+
+</div>
+</body>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+<script type="text/javascript" src="js/news.js"></script>
+</html>

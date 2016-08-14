@@ -1,0 +1,68 @@
+
+#detailPage{
+    font-family:myfont;
+}
+@font-face {
+    font-family: 'myfont';
+    src:url("../font/fontawesome-webfont.woff2");
+}
+.ui-page-theme-a .ui-bar-inherit{
+    background-color: #EE3322;
+    color:white;
+    border: 0px;
+}
+.headerDiv span{
+    display: inline-block;
+    margin: 2%;
+}
+.headerDiv span:nth-child(3){
+    float: right;
+}
+.ui-content{
+    padding: 0px;
+}
+.conDiv p:nth-child(3){
+    color: grey;
+    font-size:4em;
+}
+.conDiv{
+    margin-left: 2%;
+    margin-bottom: 15%;
+}
+.conDiv div span{
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+.conDiv div img{
+    display: inline-block;
+    float: left;
+}
+.contentDiv div:nth-child(3) p{
+    color: grey;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0%;
+}
+.contentDiv div:nth-child(4) p{
+    font-size: 5em;
+    margin-left: 2%;
+}
+.contentDiv div:nth-child(5) div:nth-child(1) span{
+    display: inline-block;
+    margin-left: 6%;
+    width: 12%;
+    margin-top: 5%;
+    color: #000000;
+    text-align: center;
+}
+.contentDiv div:nth-child(5) div:nth-child(2) span{
+    display: inline-block;
+    margin-left: 6%;
+    width: 12%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    background-color: #0088bb;
+    color: blue;
+    text-align: center;
+}

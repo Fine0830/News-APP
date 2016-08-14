@@ -1,0 +1,113 @@
+@font-face {
+    font-family: buzzfont;
+    src: url(../font/fontawesome-webfont.woff2);
+}
+.content{
+    overflow-y: hidden;
+}
+.ui-page-theme-a{
+    background-color: #e2e2e2;
+    cursor:pointer;
+}
+.leftCol,.rightCol{
+    /*border:1px solid darkcyan;*/
+}
+.centerCol{
+    width:100%;
+    /*border:1px solid darkcyan;*/
+}
+.buzzItem{
+    background-color: white;
+    margin: 3% 1%;
+    width:98%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #5b5b5b,-1px -1px 1px #5b5b5b;
+    /*float: left;*/
+    transiton:all .3s linear;
+}
+.buzzItem .item-pic{
+    width:100%;
+    padding:32% 0;
+    /*border:1px solid red;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*background-image: url(../images/11.jpg);*/
+}
+.buzzItem .item-caption{
+    width:100%;
+    padding:2% 4%;
+    text-align: left;
+    word-break: normal;
+    word-wrap: break-word;
+    font-family: buzzfont;
+    font-size: 40px;
+}
+.tapChange{
+    opacity: 0.2;
+}
+
+/*//loader*/
+.footer{
+    background-color: #008b8b;
+}
+.loader{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    /*border:1px solid red;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.loader i{
+    display: block;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #008b8b;
+    position: absolute;
+}
+@-webkit-keyframes loaderAni{
+    from{transform:scale(1);opacity: 1}
+    to{transform:scale(0.6);opacity: 0.8 }
+}
+.loader i:nth-child(1){
+    top:15px;left:0px;
+    -webkit-animation:loaderAni 1s ease-out .1s infinite;
+}
+.loader i:nth-child(2){
+    top:5px;left:6px;
+    -webkit-animation:loaderAni 1s ease-out .2s infinite;
+}
+.loader i:nth-child(3){
+    top:0px;left:15px;
+    -webkit-animation:loaderAni 1s ease-out .3s infinite;
+}
+.loader i:nth-child(4){
+    top:5px;left:29px;
+    -webkit-animation:loaderAni 1s ease-out .4s infinite;
+}
+.loader i:nth-child(5){
+    top:15px;left:33px;
+    -webkit-animation:loaderAni 1s ease-out .5s infinite;
+}
+.loader i:nth-child(6){
+    top:29px;left:29px;
+    -webkit-animation:loaderAni 1s ease-out .6s infinite;
+}
+.loader i:nth-child(7){
+    top:35px;left:15px;
+    -webkit-animation:loaderAni 1s ease-out .7s infinite;
+}
+.loader i:nth-child(8){
+    top:29px;left:6px;
+    -webkit-animation:loaderAni 1s ease-out .8s infinite;
+}
+
+.footer{
+    display: none;
+}

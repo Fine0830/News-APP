@@ -1,0 +1,79 @@
+@font-face{
+    font-family: "Wallau";
+    src: url("../font/WallauUnzial.ttf");
+}
+@font-face{
+    font-family: "myIcon";
+    src: url("../font/myIcon.ttf");
+}
+body{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: 100;
+}
+.ui-content{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: #DCDCDC;
+}
+#myHead{
+    width: 100%;
+    height: 180px;
+    background-image: url("../images/inforBg.jpg");
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+}
+#headImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    overflow: hidden;
+    background-image: url("../images/pig.jpg");
+    background-size: cover;
+    background-position-x: -18px;
+    margin: 20px auto;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+    text-shadow: none;
+}
+#myList>ul>li>span:first-child{
+    font-family: "myIcon"!important;
+    color: red;
+    font-size: 20px;
+}
+#myList>ul>li>span:last-child{
+    margin-left: 0.5em;
+    font-size: 14px;
+}
+#firstSec{
+    margin-top: 6%;
+    width: 100%;
+    /*height: 135px;*/
+    background-color: #ffffff;
+}
+#secondSec{
+    margin-top: 6%;
+    width: 100%;
+    /*height: 90px;*/
+    background-color: #ffffff;
+}
+#thirdSec{
+    margin-top: 6%;
+    width: 100%;
+    /*height: 45px;*/
+    background-color: #ffffff;
+}
+#myList>ul>li{
+    list-style: none;
+    width: 100%;
+    padding: 0.6em 0px;
+    /*height: 45px;*/
+    /*line-height: 45px;*/
+}
+.line1{
+    width: 85%;
+    height: 1px;
+    background-color: #DCDCDC;
+}

@@ -1,0 +1,126 @@
+body{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #ffffff;
+    background-color: lavender;
+}
+@font-face{
+    font-family: "myIcon";
+    src: url("../font/myIcon.ttf");
+}
+@font-face{
+    font-family: "wall";
+    src: url("../font/WallauUnzial.ttf");
+}
+@font-face{
+    font-family: "return";
+    src: url("../font/iconreturn.ttf");
+}
+
+#menu{
+    background-image: url("../images/menuBg3.png");
+    background-size: cover;
+    /*width: 24em;*/
+    /*z-index: 2000;*/
+}
+.ui-page-theme-a .ui-body-inherit, html .ui-body-a .ui-body-inherit{
+    background-color: transparent;
+    color: white;
+}
+.ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn{
+    border: 0;
+}
+.ui-page-theme-a .ui-bar-inherit{
+    background-color: red;
+}
+.glyphicon-envelope{
+    font-size: 32px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#myHeader span{
+    box-shadow: none;
+    color: white;
+    cursor: pointer;
+    text-shadow: none;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+#myHeader span:nth-child(1){
+    font-family: "myIcon";
+    margin-left: 2%;
+    font-size: 4em;
+}
+#myHeader span:nth-child(2){
+    font-family:"return";
+    font-size: 4em;
+    display: none;
+    margin-left: 2%;
+}
+#myHeader span:nth-child(3){
+    font-family: "wall";
+    font-size: 4em;
+    margin-left: 4%;
+}
+#myHeader span:nth-child(7){
+    font-family: "myIcon";
+    float: right;
+    margin-right: 2%;
+    margin-top: 3%;
+    font-size: 3em;
+}
+#myHeader span:nth-child(6){
+    float: right;
+    margin-top: 3%;
+    font-size: 3em;
+}
+#myHeader span:nth-child(5){
+    float: right;
+    margin-top: 3%;
+    font-size: 3em;
+}
+#myHeader span:nth-child(4){
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-size: 3em;
+}
+.myHead{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 20%;
+    overflow: hidden;
+    background-image: url("../images/pig.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.myIntro{
+    width: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: none;
+}
+#myClassify{
+    margin-top: 10%;
+}
+#myClassify>li{
+    width: 100%;
+    height: 5em;
+    line-height: 4em;
+    cursor: pointer;
+}
+#myClassify>li:hover{
+    background: rgba(0,0,0,0.4);
+}
+#myClassify>li>span:first-child{
+    font-family: "myIcon"!important;
+    font-size: 26px;
+}
+#myClassify>li>span:last-child{
+    font-size: 16px;
+    margin-left: 2em;
+}
